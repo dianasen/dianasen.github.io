@@ -12,10 +12,28 @@ body {
 
 .assighment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 4px solid rgb(26, 90, 116);
 }
 
-h1{
-    color: darkgreen;
+.assighment img:hover {
+    border: 4px solid beige;
+}
+
+h1 {
+    color: gray;
     text-align:center;
+}
+
+h1:hover {
+    color:beige;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(42, 98, 121);
+}
+
+a:hover {
+    color:beige;
 }
